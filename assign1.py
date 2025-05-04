@@ -13,10 +13,10 @@ print("The product of 22 and 99 is", num1 * num2)
 print("The quotient of 22 and 99 is", num1 / num2)
 
 # Task 3 (number checker)
-numX = input("Enter a number: ")
+numX = int(input("Enter a number: "))
 if (numX > 0):
     print("The number is positive. Awesome!")
 elif (numX < 0):
     print("The number is negative. Better luck next time!")
-elif (num == 0):
+elif (numX == 0):
     print("Zero is it. A perfect balance!")
